@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__contenido">
+            <h1>"Juego de identificar la especie"</h1>
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <p></p>
+                </div>
+                <div class="container__imagen">
+                <img id="imagenAnimal" src="" alt="Imagen del animal" width="300">
+                </div>
+                <input type="text" id="valorUsuario" placeholder="Escribe el nombre del animal" min="1" max="10" class="container__input">
+                <div class="chute container__botones">
+                    <button onclick="verificarIntento('')" class="container__boton">Verificar</button>
+                    <button id="reiniciar" onclick="reiniciarJuego('')" class="container__boton" id="reiniciar" disabled>Reiniciar</button>
+                </div>
+                               
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="cajas-grupos">
+        <div class="caja-grupo" onclick="window.location.href='chondrichtyes.html'">
+            <h2>Chondrichtyes</h2>
+            <p>Haz clic para identificar este grupo</p>
+        </div>
+
+        <div class="caja-grupo" onclick="window.location.href='osteichthyes.html'">
+            <h2>Osteichthyes</h2>
+            <p>Haz clic para identificar este grupo</p>
+        </div>
+            <div class="caja-grupo" onclick="window.location.href='actinopteri.html'">
+            <h2>Actinopteri</h2>
+            <p>Haz clic para identificar este grupo</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
