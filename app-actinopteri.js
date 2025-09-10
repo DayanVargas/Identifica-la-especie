@@ -12,14 +12,13 @@ const animales = [
     { nombre: 'Anchoa colonensis', imagen: './img/AColonensis.png' },
     { nombre: 'Anchoa lamprotaenia', imagen: './img/ALamprotaenia.png' },
     { nombre: 'Lycengraulis grossidens', imagen: './img/LGrossidens.png' },
-    { nombre: 'Lycengraulis batesii', imagen: './img/LBatesii.png' },
     { nombre: 'Anchovia clupeoides', imagen: './img/AClupeoides.png' },
     { nombre: 'Cetengraulis edentulus', imagen: './img/CEdentulus.png' },
     { nombre: 'Odontognathus mucronatus', imagen: './img/OMucronatus.png' },
     { nombre: 'Odontognathus compressus', imagen: './img/OCompressus.png' },
     { nombre: 'Pellona harroweri', imagen: './img/PHarroweri.png' },
-    { nombre: 'Pellona castelnaeana', imagen: './img/PCastelnaeana.png' },
-    { nombre: 'Harengula clupeola', imagen: './img/HClupeola.png' },
+    { nombre: 'Pellona castelneana', imagen: './img/PCastelneana.png' },
+    { nombre: 'Harengula clupeola', imagen: './img/HCl.png' },
     { nombre: 'Harengula jaguana', imagen: './img/HJaguana.png' },
     { nombre: 'Harengula humeralis', imagen: './img/HHumeralis.png' },
     { nombre: 'Opisthonema oglinum', imagen: './img/Ooglinum.png' },
@@ -27,6 +26,7 @@ const animales = [
     { nombre: 'Jenkinsia lamprotaenia', imagen: './img/JLamprotaenia.png' },
     { nombre: 'Jenkinsia stolifera', imagen: './img/JStolifera.png' },
     { nombre: 'Etrumeus sadina', imagen: './img/ESadina.png' },
+    { nombre: 'Lycengraulis batesii', imagen: './img/LBa.png' },
     // ...agrega más si tu grupo lo requiere...
 ];
 
